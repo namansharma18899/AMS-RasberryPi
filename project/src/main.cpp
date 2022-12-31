@@ -1,22 +1,9 @@
 #include<iostream>
+#include "Company.cpp"
 using namespace std;
-    class company{
-        public : 
-        string name;
-        void input( string n){
-            name = n ;
-            
-        }
-        void display(){
-            cout << name;
-        }
-    };
-
-int main(){
+   int main(){
         company c;
         c.input("Spacex");
         c.display();
-        
-        
     return 0;
 }
